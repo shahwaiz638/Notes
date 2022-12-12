@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".options">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <Button
+            android:layout_margin="20dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="sort by Title"
+            android:id="@+id/sort_title"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_margin="20dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="sort by Created (Newest first)"
+            android:id="@+id/new_first"/>
+        <Button
+            android:layout_margin="20dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Sort by Created (Oldest first)"
+            android:id="@+id/old_first"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <Button
+            android:layout_margin="20dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Sort by latest updated"
+            android:id="@+id/latest_update_first"/>
+        <Button
+            android:layout_margin="20dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Sort by Updated (Oldest first)"
+            android:id="@+id/last_updated_first"/>
+    </LinearLayout>
+
+
+</LinearLayout>
